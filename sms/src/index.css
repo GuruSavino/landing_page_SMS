@@ -1,0 +1,17 @@
+/* App-level stylesheet. The compiled Tailwind output should be produced by the CLI
+	(from src/tailwind-input.css -> public/tailwind.css) and is loaded from public.
+	Keep this file for any small global overrides that should not be processed by CRA/PostCSS.
+*/
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
